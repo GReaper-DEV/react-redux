@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none !important;
+    margin: 0 !important;
+}
+
+.content ul li:first-of-type {
+    border-top: 1px solid #ddd;
+}
+
+.content ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    margin: 0 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+h3 {
+    margin: 0 !important;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.container > button {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+.button.is-link {
+    background-color: #485fc7;
+    border-color: transparent;
+    color: #fff;
+}
+.buttons .button {
+    margin-bottom: 0.5rem;
+}
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.buttons:last-child {
+    margin-bottom: -0.5rem;
+}
+.subtitle.is-3 {
+    font-size: 2rem;
+}
+.button.is-danger {
+    background-color: #f14668;
+    border-color: transparent;
+    color: #fff;
+}
+.button, .input, .textarea, .select select, .file-cta, .file-name, .pagination-previous, .pagination-next, .pagination-link, .pagination-ellipsis {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
+}
